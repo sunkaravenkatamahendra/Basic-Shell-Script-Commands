@@ -1,6 +1,6 @@
 # Basic-Shell-Script-Commands
 
-###File and Directory Management
+##File and Directory Management
 
 ls          # List files and directories
 cd          # Change directory
@@ -14,7 +14,7 @@ find . -name "file.txt"  # Find a file
 
 
 
-####File Content Manipulation
+##File Content Manipulation
 
 cat file.txt       # Display file content
 nano file.txt      # Open file in nano editor
@@ -26,7 +26,7 @@ awk '{print $1}' file.txt  # Extract column from a file
 sed 's/old/new/g' file.txt  # Replace text in a file
 
 
-####Permissions & Ownership
+##Permissions & Ownership
 
 
 chmod 755 file     # Change file permissions
@@ -35,14 +35,14 @@ chgrp group file   # Change file group ownership
 
 
 
-####Networking
+##Networking
 
 ping google.com        # Check internet connectivity
 curl -O url           # Download a file
 wget url              # Download a file
 
 
-####Process Management
+##Process Management
 
 ps aux           # List running processes
 top              # Show running processes interactively
@@ -50,7 +50,7 @@ kill PID         # Kill a process by ID
 pkill process    # Kill a process by name
 
 
-####System Monitoring
+##System Monitoring
 
 df -h           # Check disk space usage
 du -sh *        # Check directory size
